@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "source_sha256": "de2eb0baddda7cfe9631019ad61f20ddf13d9fca510ada75c0e63b2d17d0040a",
+  "method": "Independent CSV reader and scalar arithmetic, separate from the pandas analysis pipeline. No raw source data is published.",
+  "checks": [
+    {
+      "check": "Source row count and unique keys",
+      "status": "passed",
+      "detail": 480235
+    },
+    {
+      "check": "Positive positions with rounded zero weights",
+      "status": "passed",
+      "detail": 2322
+    },
+    {
+      "check": "Stock-month price consistency",
+      "status": "passed",
+      "detail": 29019
+    },
+    {
+      "check": "Strict balanced-panel membership",
+      "status": "passed",
+      "detail": 171
+    },
+    {
+      "check": "Independent fund-month counts, weights and concentration",
+      "status": "passed",
+      "detail": 8146
+    },
+    {
+      "check": "Industry weights reconcile with supplied fund weights",
+      "status": "passed",
+      "detail": 8146
+    },
+    {
+      "check": "Independent consecutive-month composition changes",
+      "status": "passed",
+      "detail": 7858
+    },
+    {
+      "check": "Independent cross-house fund peer statistics",
+      "status": "passed",
+      "detail": 16292
+    },
+    {
+      "check": "Independent stock-month ownership and matched-fund changes",
+      "status": "passed",
+      "detail": 38880
+    },
+    {
+      "check": "Independent stock co-holding and lift calculations",
+      "status": "passed",
+      "detail": 154842
+    },
+    {
+      "check": "All-fund and balanced-panel breadth headlines",
+      "status": "passed",
+      "detail": 36
+    },
+    {
+      "check": "UTI October 2025 missing-data behaviour",
+      "status": "passed",
+      "detail": "No UTI funds in October; fund composition comparisons are unavailable across the gap."
+    },
+    {
+      "check": "Finite JSON and valid embedding neighbour references",
+      "status": "passed",
+      "detail": {
+        "files": 1379,
+        "references": 232310
+      }
+    },
+    {
+      "check": "Disjoint monthly training, validation and test funds",
+      "status": "passed",
+      "detail": 36
+    },
+    {
+      "check": "Independent per-case benchmark arithmetic",
+      "status": "passed",
+      "detail": 8436
+    },
+    {
+      "check": "Fund-house holdout excludes the entire organization",
+      "status": "passed",
+      "detail": null
+    }
+  ]
+}
